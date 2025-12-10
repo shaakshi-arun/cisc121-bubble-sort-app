@@ -78,7 +78,7 @@ This keeps the app beginner-friendly and focused on learning.
 
 #### 4. Algorithm Design
 Input:  
-Comma-separated integers (e.g. `5, 3, 8, 1`)
+Comma-separated integers (e.g. 5, 3, 8, 1)
 
 Process: 
 Parse input → run Bubble Sort → track steps
@@ -113,27 +113,27 @@ Comments are included in the Python code to explain each major section of logic.
 The app was tested using multiple inputs to ensure correctness and proper error handling.
 
 ### Test Case 1
-Input: `5, 3, 8, 1, 2`  
-Output: `1, 2, 3, 5, 8`  
+Input: 5, 3, 8, 1, 2  
+Output: 1, 2, 3, 5, 8  
 Correct sorting with full explanation displayed: yes
 
 ---
 
 ### Test Case 2
-Input: `10, 9, 8, 7`  
-Output: `7, 8, 9, 10`  
+Input: 10, 9, 8, 7  
+Output: 7, 8, 9, 10  
 Correct handling of descending input: yes
 
 ---
 
 ### Test Case 3 (Already Sorted)
-Input: `1, 2, 3, 4`  
+Input: 1, 2, 3, 4  
 Algorithm stops early and reports no swaps: yes
 
 ---
 
 ### Test Case 4 (Invalid Input)
-Input: `5, a, 3`  
+Input: 5, a, 3  
 App displays a clear error message instead of crashing: yes
 
 These tests demonstrate correctness, robustness, and good user feedback.
@@ -149,8 +149,8 @@ Click the Hugging Face link below to use the app instantly:
 
 ### Run Locally (Optional)
 1. Clone the repository
-2. Install dependencies using `pip install -r requirements.txt`
-3. Run `python app.py`
+2. Install dependencies using pip install -r requirements.txt
+3. Run python app.py
 4. Open the local Gradio link in your browser
 
 ---
